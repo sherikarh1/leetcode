@@ -1,4 +1,4 @@
-package collection.hashmap;
+package collection.map;
 
 public class Leet_1935 {
     public int fullTypedWord(String words, String broken_word) {

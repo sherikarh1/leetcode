@@ -2,7 +2,7 @@
 // each value in the array is unique, or false otherwise.
 
 
-package collection.hashmap;
+package collection.map;
 
 import java.util.HashMap;
 import java.util.HashSet;

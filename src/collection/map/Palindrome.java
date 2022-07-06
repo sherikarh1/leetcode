@@ -1,4 +1,4 @@
-package collection.hashmap;
+package collection.map;
 
 public class Palindrome {
     public boolean isPalindeome(String words){

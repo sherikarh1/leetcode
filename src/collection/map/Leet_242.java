@@ -1,4 +1,4 @@
-package collection.hashmap;
+package collection.map;
 
 import java.util.Arrays;
 

@@ -1,7 +1,6 @@
-package collection.hashmap;
+package collection.map;
 
 import java.util.HashMap;
-import java.util.Map;
 
 public class Leet_217 {
     public boolean duplicate(int[] arry){

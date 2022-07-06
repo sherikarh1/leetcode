@@ -1,6 +1,6 @@
 // Find and display number of duplicate occurences of word in String.
 
-package collection.hashmap;
+package collection.map;
 
 
 import java.util.HashMap;
@@ -23,7 +23,7 @@ public class Leet_duplicateWords {
         for(Map.Entry<String,Integer>entry:map.entrySet()){
             if(entry.getValue()>1){
                 String temp1 = entry.getKey();
-                System.out.println("The word" +temp1 + "occures" +entry.getKey());
+                System.out.println("The word " +temp1 + " occures " +entry.getValue());
 
             }
         }
@@ -33,7 +33,7 @@ public class Leet_duplicateWords {
     }
 
     public static void main(String[] args) {
-        String words = "I am ama java learner";
+        String words = "I am am java learner";
         findDuplicate(words);
     }
 }
